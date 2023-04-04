@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    background: url("../images/Header1.png") center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    margin: 0px 10px 0px 0px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-primary{
+    padding: 8px 23px;
+    margin: 0px 20px 0px;
+    border-radius: 100px;
+    display: block;
+    font-size: 14px;
+    transition: 1s;
+    background: #2500f9;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .btn-primary:hover{
+    background: #fcae61;
+    color: #fff;
+    border: 1px solid #fcae61;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .n-top{
+    display: flex;
+    color: #2500f9;
+}
+.banner .p-top{
+    display: inline-block;
+    color: #2500f9;
+}
